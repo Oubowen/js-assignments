@@ -127,7 +127,10 @@ function getAngleBetweenVectors(x1, y1, x2, y2) {
  *     0     => 0
  */
 function getLastDigit(value) {
-    throw new Error('Not implemented');
+    let lastDigit = value;
+    let temp = lastDigit.toString();
+    return temp[temp.length-1];
+    // throw new Error('Not implemented');
 }
 
 
@@ -181,7 +184,7 @@ function getParallelipidedDiagonal(a,b,c) {
  *   1678, 3  => 2000
  */
 function roundToPowerOfTen(num, pow) {
-    // throw new Error('Not implemented');
+    throw new Error('Not implemented');
 }
 
 /**
