@@ -24,8 +24,6 @@
  */
 function findElement(arr, value) {
    return arr.indexOf(value);
-   
-   // throw new Error('Not implemented');
 }
 
 /**
@@ -56,7 +54,7 @@ function generateOdds(len) {
  *    [] => [] 
  */
 function doubleArray(arr) {
-   throw new Error('Not implemented');
+   return arr.concat(arr);
 }
 
 
