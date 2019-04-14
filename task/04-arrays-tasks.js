@@ -71,7 +71,6 @@ function doubleArray(arr) {
  */
 function getArrayOfPositives(arr) {  
    return arr.filter(function(funcСheckPositive){return (funcСheckPositive) > 0});
-   // throw new Error('Not implemented');
 }
 
 
@@ -88,7 +87,6 @@ function getArrayOfPositives(arr) {
  */
 function getArrayOfStrings(arr) {
    return arr.filter(function(funcСheckString){return typeof(funcСheckString)==='string'});
-   // throw new Error('Not implemented');
 }
 
 /**
@@ -105,7 +103,8 @@ function getArrayOfStrings(arr) {
  *    [ false, 0, NaN, '', undefined ]   => [ ]
  */
 function removeFalsyValues(arr) {
-   throw new Error('Not implemented');
+   // return arr.filter(function(el){return typeof(el)!=='false'});
+   // throw new Error('Not implemented');
 }
 
 /**
@@ -119,7 +118,7 @@ function removeFalsyValues(arr) {
  *    [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ]  => [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
  */
 function getUpperCaseStrings(arr) {
-   throw new Error('Not implemented');
+   return arr.map(function(el){return (el).toUpperCase()});
 }
 
 
