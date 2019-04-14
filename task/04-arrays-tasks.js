@@ -354,6 +354,10 @@ function getItemsSum(arr) {
  *  [ null, undefined, NaN, false, 0, '' ]  => 6
  */
 function getFalsyValuesCount(arr) {
+   // return arr.reduce(function(accumulator, currentValue) {
+   //    if (currentValue == false || currentValue != NaN)
+   //    return accumulator + 1;
+   // });
    throw new Error('Not implemented');
 }
 
@@ -387,7 +391,7 @@ function findAllOccurences(arr, item) {
  *    ['rock', 'paper', 'scissors']     => 'rock,paper,scissors'
  */
 function toStringList(arr) {
-   throw new Error('Not implemented');
+   return arr.join();
 }
 
 
