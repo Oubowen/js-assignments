@@ -70,7 +70,8 @@ function doubleArray(arr) {
  *    [] => [] 
  */
 function getArrayOfPositives(arr) {  
-   throw new Error('Not implemented');
+   return arr.filter(function(funcСheckPositive){return (funcСheckPositive) > 0});
+   // throw new Error('Not implemented');
 }
 
 
