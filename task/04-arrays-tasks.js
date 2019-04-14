@@ -38,7 +38,7 @@ function findElement(arr, value) {
  *    5 => [ 1, 3, 5, 7, 9 ]
  */
 function generateOdds(len) {
-   // throw new Error('Not implemented');
+   throw new Error('Not implemented');
 }
 
 
@@ -354,12 +354,9 @@ function getItemsSum(arr) {
  *  [ null, undefined, NaN, false, 0, '' ]  => 6
  */
 function getFalsyValuesCount(arr) {
-   // return arr.reduce(function(accumulator, currentValue) {
-   //    if (currentValue == false || currentValue != NaN)
-   //    return accumulator + 1;
-   // });
-   throw new Error('Not implemented');
+   return arr.filter(el =>  el == 0 || el === null || el != el || el === undefined).length;
 }
+   
 
 /**
  * Returns a number of all occurences of the specified item in an array  
