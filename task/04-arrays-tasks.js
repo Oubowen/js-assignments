@@ -103,8 +103,7 @@ function getArrayOfStrings(arr) {
  *    [ false, 0, NaN, '', undefined ]   => [ ]
  */
 function removeFalsyValues(arr) {
-   // return arr.filter(function(el){return typeof(el)!=='false'});
-   // throw new Error('Not implemented');
+   return arr.filter(el => el != false && el === el && el != undefined);
 }
 
 /**
